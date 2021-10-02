@@ -1322,16 +1322,16 @@ module.exports = function (e, r) {
                             b = h + g + w + T;
                             if (!b) return [2];
                             E = [{
-                                label: "🌞 1",
+                                label: "🌞 아침",
                                 commits: h
                             }, {
-                                label: "🌆 2",
+                                label: "🌆 점심",
                                 commits: g
                             }, {
-                                label: "🌃 3",
+                                label: "🌃 저녁",
                                 commits: w
                             }, {
-                                label: "🌙 4",
+                                label: "🌙 새벽",
                                 commits: T
                             }];
                             y = E.reduce(function (e, r) {
